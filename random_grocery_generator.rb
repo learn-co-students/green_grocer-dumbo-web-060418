@@ -1,3 +1,4 @@
+
 require_relative 'grocer'
 
 def items
@@ -37,6 +38,9 @@ def generate_coupons
 		end
 	end
 end
+
+
+
 
 cart = generate_cart
 coupons = generate_coupons
